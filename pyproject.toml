@@ -27,3 +27,14 @@ Source = "https://github.com/JoshMcDonagh/Modelarium-for-Python"
 
 [tool.setuptools]
 include-package-data = true
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+modelarium = ["_jars/*.jar"]
+
+[tool.modelarium]
+java_group_id = "dev.modelarium"
+java_artifact_id = "modelarium"
+java_version = "1.1.2"
