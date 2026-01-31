@@ -7,3 +7,5 @@ will be added in a future release.
 """
 
 __version__ = "0.0.1"
+
+from .jvm import get_jar_path
